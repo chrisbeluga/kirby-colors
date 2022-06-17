@@ -12,8 +12,7 @@ A simple color selection field for [Kirby CMS](https://getkirby.com),
 {
     "title": "Honeydew",
     "hex": "E2EFDE",
-    "class": "bg-honeydew-500",
-  }
+    "class": "bg-honeydew-500"
 }
 ```
 
@@ -27,7 +26,7 @@ Add the following blueprint to wherever you would like the colors field to appea
 
 ```yaml
 color:
-  label: Form Background
+  label: Background Color
   type: colors
   width: 1/2
   help: Select a background color for the form
