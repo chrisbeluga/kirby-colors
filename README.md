@@ -4,7 +4,7 @@ A simple color selection field for [Kirby CMS](https://getkirby.com),
 
 ## Preview
 
-![](https://github.com/chrisbeluga/kirby-colors/blob/master/screenshot.png)
+![](screenshot.jpeg)
 
 ## Output
 
@@ -32,19 +32,19 @@ color:
   help: Select a background color for the form
   options:
     honeydew:
-      hex: E2EFDE
+      hex: 'E2EFDE'
       title: Grey
       class: bg-honeydew-500
     apricot:
-      hex: F4B266
+      hex: 'F4B266'
       title: Apricot
       class: bg-apricot-500
     white:
-      hex: FFFFFF
+      hex: 'FFFFFF'
       title: White
       class: bg-white
     black:
-      hex: 000000
+      hex: '000000'
       title: Black
       class: bg-black
 ```

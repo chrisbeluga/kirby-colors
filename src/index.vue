@@ -98,35 +98,29 @@
         display: flex;
         flex-direction: column;
         .k-colors-container {
-            gap: 10px;
+            background: var(--color-white);
+            padding: var(--spacing-5);
+            gap: .875rem;
             display: flex;
             flex-wrap: wrap;
-            justify-content: flex-start;
-            .k-colors-item {
+            box-shadow: var(--shadow);
+            border-radius: var(--rounded);
+            .k-colors-block {
+                width: 2.5rem;
+                height: 2.5rem;
                 display: flex;
-                line-height: 1;
-                cursor: pointer;
                 align-items: center;
                 justify-content: center;
-                .k-colors-block {
-                    width: 52px;
-                    height: 38px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border: var(--field-input-border);
-                    padding: var(--field-input-padding);
-                    line-height: var(--field-input-line-height);
-                    .k-colors-icon {
-                        width: 24px;
-                        height: 24px;
-                        display: flex;
-                        &.dark {
-                            fill: var(--color-black);
-                        }
-                        &.light {
-                            fill: var(--color-white);
-                        }
+                border: var(--field-input-border);
+                border-radius: var(--rounded);
+                .k-colors-icon {
+                    width: 1.25rem;
+                    height: 1.25rem;
+                    &.dark {
+                        fill: var(--color-black)
+                    }
+                    &.light {
+                        fill: var(--color-white)
                     }
                 }
             }
